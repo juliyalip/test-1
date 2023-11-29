@@ -2,7 +2,7 @@
   "name": "test-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "github.io/juliyalip/test-1",
+  "homepage": "http://juliyalip.github.io/test-1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

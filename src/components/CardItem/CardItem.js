@@ -10,20 +10,15 @@ export default function CardItem() {
           <span>Yesterday</span>
         </div>
         <div className={style.counterContainer2}>
-        <span className={style.counterValue}>0</span>
+          <span className={style.counterValue}>0</span>
           <span>Selected period</span>
         </div>
       </div>
 
-<div className={style.backdrop}>
-  <p className={style.subtitle}>Daily trend</p>
-<div className={style.context}></div>
-</div>
-    
+      <div className={style.backdrop}>
+        <p className={style.subtitle}>Daily trend</p>
+        <div className={style.context}></div>
+      </div>
     </li>
   );
 }
-
-
-
-

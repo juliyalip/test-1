@@ -1,13 +1,13 @@
 .container {
   border: 1px solid black;
-  width: calc(100% /6);
+  width: calc(100% / 6);
   background-color: #2a2a2a;
   padding: 10px;
   margin-right: 5px;
-  color: white
+  color: white;
 }
 
-.container:nth-child(5n){
+.container:nth-child(5n) {
   margin-right: 0;
 }
 
@@ -15,7 +15,7 @@
   display: flex;
 }
 
-.baseStyleCounterContainer{
+.baseStyleCounterContainer {
   display: flex;
   flex-direction: column;
   width: calc(100% / 2);
@@ -25,13 +25,12 @@
   margin-right: 5px;
   padding-bottom: 30px;
   border-radius: 7px;
-  text-align: center
+  text-align: center;
 }
 
 .counterContainer {
- @extend .baseStyleCounterContainer;
+  @extend .baseStyleCounterContainer;
   background-color: #5e8ac7;
-  
 }
 
 .counterContainer2 {
@@ -43,11 +42,11 @@
   font-size: 24px;
 }
 
-.title{
-    font-size: 12px;
+.title {
+  font-size: 12px;
 }
 
-.subtitle{
+.subtitle {
   position: absolute;
   transform: rotate(-90deg);
   font-size: 12px;
@@ -55,25 +54,24 @@
   bottom: 30px;
 }
 
-.baseBackdrop{
+.baseBackdrop {
   border: 1px solid grey;
   border-radius: 4px;
- 
 }
 
-.backdrop{
-@extend .baseBackdrop;
+.backdrop {
+  @extend .baseBackdrop;
   width: 95%;
   height: 170px;
- margin:20px auto ;
- position: relative;
+  margin: 20px auto;
+  position: relative;
 }
 
-.context{
+.context {
   @extend .baseBackdrop;
-  position: absolute; 
-bottom: 5px;
-right: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
   width: 80%;
   height: 120px;
 }

@@ -22,10 +22,13 @@
   align-items: center;
   color: white;
   padding-top: 20px;
-  margin-right: 5px;
   padding-bottom: 30px;
   border-radius: 7px;
   text-align: center;
+}
+
+.baseStyleCounterContainer:not(:last-child){
+  margin-right: 5px
 }
 
 .counterContainer {

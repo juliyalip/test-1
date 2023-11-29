@@ -21,7 +21,7 @@ export default function Page() {
       <Header />
       <main>
         <div className={style.container} >
-          <LeftMenu />
+        <LeftMenu />
         <TopDesk />
         <CredentialList items={credentials} />
         </div>
